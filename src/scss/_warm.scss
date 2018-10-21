@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$colorLight: #ffedbf;
+$colorDark: #9b2948;
+
+body.warm {
+  font-family: 'Raleway', sans-serif;
+  background-color: $colorLight;
+  color: $colorDark;
+}
+
+h1, h2 {
+  background-image: url('../assets/warm-border.svg');
+  background-repeat-y: no-repeat;
+  background-position: bottom;
+  display: inline-block;
+  padding-bottom: 20px;
+}
