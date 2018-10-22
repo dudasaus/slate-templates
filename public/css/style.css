@@ -35,6 +35,8 @@ body.warm {
     background-position: bottom;
     display: inline-block;
     padding-bottom: 20px; }
+  body.warm ::selection {
+    background-color: rgba(0, 0, 0, 0.15); }
 
 body.diner {
   font-family: 'Lato', sans-serif;
@@ -43,5 +45,7 @@ body.diner {
   body.diner h1, body.diner h2, body.diner h3 {
     font-family: 'Lora', serif;
     color: #004D40; }
+  body.diner ::selection {
+    background-color: #B2DFDB; }
 
 /*# sourceMappingURL=style.css.map */

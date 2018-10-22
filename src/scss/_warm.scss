@@ -2,6 +2,11 @@
 
 $colorLight: #ffedbf;
 $colorDark: #9b2948;
+$colorHighlight: rgba(#000, 0.15);
+
+// ::selection {
+//   background-color: black;
+// }
 
 body.warm {
   font-family: 'Raleway', sans-serif;
@@ -13,5 +18,8 @@ body.warm {
     background-position: bottom;
     display: inline-block;
     padding-bottom: 20px;
+  }
+  ::selection {
+    background-color: $colorHighlight;
   }
 }

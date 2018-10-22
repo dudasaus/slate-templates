@@ -4,6 +4,7 @@
 $colorLight: #efefe4;
 $colorDark: #111;
 $colorHeader: #004D40;
+$colorHighlight: #B2DFDB;
 
 body.diner {
   font-family: 'Lato', sans-serif;
@@ -12,5 +13,8 @@ body.diner {
   h1, h2, h3 {
     font-family: 'Lora', serif;
     color: $colorHeader;
+  }
+  ::selection {
+    background-color: $colorHighlight;
   }
 }
