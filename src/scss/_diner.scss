@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+$colorLight: #efefe4;
+$colorDark: #111;
+$colorHeader: #004D40;
+
+body.diner {
+  font-family: 'Lato', sans-serif;
+  background-color: $colorLight;
+  color: $colorDark;
+  h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: $colorHeader;
+  }
+}

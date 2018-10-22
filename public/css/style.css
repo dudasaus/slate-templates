@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lora");
 header {
   text-align: center;
   margin-bottom: 4rem; }
@@ -27,12 +29,19 @@ body.warm {
   font-family: 'Raleway', sans-serif;
   background-color: #ffedbf;
   color: #9b2948; }
+  body.warm h1, body.warm h2 {
+    background-image: url("../assets/warm-border.svg");
+    background-repeat-y: no-repeat;
+    background-position: bottom;
+    display: inline-block;
+    padding-bottom: 20px; }
 
-h1, h2 {
-  background-image: url("../assets/warm-border.svg");
-  background-repeat-y: no-repeat;
-  background-position: bottom;
-  display: inline-block;
-  padding-bottom: 20px; }
+body.diner {
+  font-family: 'Lato', sans-serif;
+  background-color: #efefe4;
+  color: #111; }
+  body.diner h1, body.diner h2, body.diner h3 {
+    font-family: 'Lora', serif;
+    color: #004D40; }
 
 /*# sourceMappingURL=style.css.map */
