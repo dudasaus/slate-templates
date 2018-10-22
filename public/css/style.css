@@ -31,12 +31,12 @@ body.warm {
   color: #9b2948; }
   body.warm h1, body.warm h2 {
     background-image: url("../assets/warm-border.svg");
-    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
     background-position: bottom;
     display: inline-block;
     padding-bottom: 20px; }
   body.warm ::selection {
-    background-color: rgba(0, 0, 0, 0.15); }
+    background-color: #fff; }
 
 body.diner {
   font-family: 'Lato', sans-serif;
